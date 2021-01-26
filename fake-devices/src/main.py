@@ -6,21 +6,21 @@ all_sensors = [
         value_mean=20.2,
         value_stddev=5.0,
         value_unity="°C",
-        transmission_interval_seconds=1,
+        transmission_interval_seconds=1.0,
     ),
     FakeSensor(
         value_topic="fake-sensors/kitchen/humidity",
         value_mean=62.4,
         value_stddev=20.8,
         value_unity="%",
-        transmission_interval_seconds=2,
+        transmission_interval_seconds=2.5,
     ),
     FakeSensor(
         value_topic="fake-sensors/living-room/co2",
         value_mean=720.7,
         value_stddev=200,
         value_unity="ppm",
-        transmission_interval_seconds=5,
+        transmission_interval_seconds=5.0,
     ),
 ]
 

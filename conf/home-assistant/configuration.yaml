@@ -1,0 +1,10 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+mqtt:
+  broker: mosquitto
+  port: 1883
+  client_id: home-assistant
+  username: mqttuser
+  password: mqttpassword

@@ -1,0 +1,7 @@
+version: "3"
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2.0
+    volumes:
+      - ./conf/mosquitto:/mosquitto/config
+      - ./data/mosquitto:/var/lib/mosquitto

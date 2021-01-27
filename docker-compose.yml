@@ -16,3 +16,6 @@ services:
       - 8123:8123
     volumes:
       - ./conf/home-assistant:/config
+
+  fake-devices:
+    build: fake-devices/

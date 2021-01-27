@@ -11,8 +11,19 @@ from mqtt import FakeMQTTDevice
 
 
 class FakeSensor(FakeMQTTDevice):
-    """Defines a fake sensor that periodically sends data to a MQTT topic.
-    Names for available icons are in https://pictogrammers.github.io/@mdi/font/5.3.45/"""
+    """Defines a fake sensor.
+
+    Objects of this class have periodically publish a random value to the MQTT topic `state_topic`.
+    To add some real-world feeling to it, random values are drawn from a normal distribution with mean
+    `value_mean` and standard deviation `value_stddev`.
+
+    Moreover, objects of this class make themselves "discoverable" by other devices by
+    publishing their configuration to the MQTT topic homeassistant/switch/fake-switches/<id>/config.
+    This allows for home-assistant to automatically find them (https://www.home-assistant.io/docs/mqtt/discovery/).
+
+    The `icon` argument defines how this device is represented in home-assistant. Possible values are in
+    https://pictogrammers.github.io/@mdi/font/5.3.45/.
+    """
 
     def __init__(
         self,
@@ -61,7 +72,7 @@ class FakeSensor(FakeMQTTDevice):
                         "identifiers": self.id,
                         "name": self.name,
                         "model": "fake-sensor-v1",
-                        "manufacturer": "hacker-club.io",
+                        "manufacturer": "hackerclub.io",
                     },
                 },
             ),

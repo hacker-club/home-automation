@@ -11,8 +11,25 @@ from mqtt import FakeMQTTDevice
 
 
 class FakeBinarySensor(FakeMQTTDevice):
-    """Defines a fake sensor that periodically sends data to a MQTT topic.
-    Names for available classes are in https://www.home-assistant.io/integrations/binary_sensor/#device-class."""
+    """Defines a fake binary sensor.
+
+    A binary sensor is one that has only two possible states: "ON" or "OFF".
+    Some examples are:
+    - Motion detector sensors (either detection or no detection)
+    - Lock sensors (either locked or unlocked)
+    - Window sensors (either open or close)
+
+    To add some excitement to this simulation, at every `transmission_interval_seconds`,
+    this sensor has a `probability_of_changing_state`. This means that there is a configurable
+    chance that the state will flip from "ON" to "OFF" once in a while.
+
+    Moreover, objects of this class make themselves "discoverable" by other devices by
+    publishing their configuration to the MQTT topic homeassistant/switch/fake-switches/<id>/config.
+    This allows for home-assistant to automatically find them (https://www.home-assistant.io/docs/mqtt/discovery/).
+
+    The `device_class` argument defines how this device is represented in home-assistant. Possible values are in
+    https://www.home-assistant.io/integrations/binary_sensor/#device-class
+    """
 
     def __init__(
         self,
@@ -64,7 +81,7 @@ class FakeBinarySensor(FakeMQTTDevice):
                         "identifiers": self.id,
                         "name": self.name,
                         "model": "fake-sensor-v1",
-                        "manufacturer": "hacker-club.io",
+                        "manufacturer": "hackerclub.io",
                     },
                 },
             ),

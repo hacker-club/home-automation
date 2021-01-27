@@ -1,0 +1,359 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "824729129f8c60d1ce026381bbb38447"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "2cb197456b679598c4567723559c646e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "alarm_light"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake_switch-v1",
+                "name": "Alarm light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b3d33496a7d2d3d155af64a45866d40a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "office_light"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake_switch-v1",
+                "name": "Office light",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b7f1dd21f561cf08d916f28c0978d23a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "bedroom_temperature"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake-sensor-v1",
+                "name": "Bedroom Temperature",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "53e426055692de57c82ed429c8b26516",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "living_room_co2_battery_level"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake-sensor-v1",
+                "name": "Living Room CO2 battery level",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "041058dfd98f3d6d6f7f74329cb6f234",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "kitchen_humidity"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake-sensor-v1",
+                "name": "Kitchen Humidity",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "fcdd18f02e6d552867acf7e63bac776d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "living_room_co2"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake-sensor-v1",
+                "name": "Living Room CO2",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "46ffd46fe8e049c939778796d426f742",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "office_motion_detector"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake-sensor-v1",
+                "name": "Office motion detector",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5dbe99281edf122e568d9512ea7f6124",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "garage_door"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake-sensor-v1",
+                "name": "Garage door",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0e94f9cd73757a2312f81b1c54698d49",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "kitchen_smoke_detector"
+                    ]
+                ],
+                "manufacturer": "hacker-club.io",
+                "model": "fake-sensor-v1",
+                "name": "Kitchen smoke detector",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b387a37253e321bd2c3165cf252d3b12",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake-sensor-bedroom_temperature"
+                    ]
+                ],
+                "id": "32f1a88c20e786dddd1919cda9a030ef"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake-sensor-kitchen_himidity"
+                    ]
+                ],
+                "id": "59f8150aa45daa5d710ea9a466d5a493"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake-sensor-living_room_co2"
+                    ]
+                ],
+                "id": "757783567a1f159eed6e878b6319558c"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake_sensor-bedroom_temperature"
+                    ]
+                ],
+                "id": "51c38c299c9ccc267ae83211574225de"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake_sensor-kitchen_humidity"
+                    ]
+                ],
+                "id": "c7a6bc68a949e3d0af21ff50df7a95e3"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake_sensor-living_room_co"
+                    ]
+                ],
+                "id": "8dc2d4c57f24e8457b656f8e217e72c9"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake_sensor-living_room_co2"
+                    ]
+                ],
+                "id": "9408d94a4aa0fd22721fb1340c5da7d1"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake_sensor-living_room_co2_battery_level"
+                    ]
+                ],
+                "id": "67715379250f503e31d08152274414a1"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake_switch-office_light"
+                    ]
+                ],
+                "id": "2ffc12c42dcdcfd4c2f784f5e444261d"
+            },
+            {
+                "config_entries": [
+                    "601d140214027493092342107685c1de"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "fake_switch-alarm_light"
+                    ]
+                ],
+                "id": "d95548fde77448cabf43633b40bf592d"
+            }
+        ]
+    }
+}

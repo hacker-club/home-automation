@@ -1,0 +1,71 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.home",
+                            "show_forecast": false
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "switch.office_light"
+                                },
+                                {
+                                    "entity": "switch.alarm_light"
+                                }
+                            ],
+                            "title": "Fake switches",
+                            "show_header_toggle": false,
+                            "state_color": true
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.living_room_co2"
+                                },
+                                {
+                                    "entity": "sensor.living_room_co2_battery_level"
+                                },
+                                {
+                                    "entity": "sensor.kitchen_humidity"
+                                },
+                                {
+                                    "entity": "sensor.bedroom_temperature"
+                                }
+                            ],
+                            "title": "Fake sensors"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.office_motion_detector"
+                                },
+                                {
+                                    "entity": "binary_sensor.garage_door"
+                                },
+                                {
+                                    "entity": "binary_sensor.kitchen_smoke_detector"
+                                }
+                            ],
+                            "state_color": true,
+                            "title": "Fake binary sensors"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

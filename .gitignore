@@ -1,2 +1,5 @@
 *.swp
 .vscode
+
+# Runtime data from containers.
+data/

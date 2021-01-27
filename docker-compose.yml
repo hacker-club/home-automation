@@ -8,6 +8,8 @@ services:
       - ./conf/mosquitto:/mosquitto/config
       - ./data/mosquitto:/var/lib/mosquitto
 
+  # https://www.home-assistant.io/docs/installation/docker/
+  # For advanced features, use network_mode: host and remove the "ports" key below.
   home-assistant:
     image: homeassistant/home-assistant:2021.1.5
     ports:

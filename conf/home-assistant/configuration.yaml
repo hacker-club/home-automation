@@ -5,6 +5,6 @@ default_config:
 mqtt:
   broker: mosquitto
   port: 1883
-  client_id: home-assistant
+  client_id: homeassistant
   username: mqttuser
   password: mqttpassword

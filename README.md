@@ -1,5 +1,5 @@
-# A gentle introduction to home automation with docker-compose
-This repository holds code for a series of blog posts called "A gentle introduction to home automation with docker-compose", published on [hackerclub.io](https://hackerclub.io).
+# A gentle guide to home automation with docker-compose
+This repository holds code for a series of blog posts called "A gentle guide to home automation with docker-compose", published on [hackerclub.io](https://hackerclub.io).
 
 The posts and code are organized in _parts_. Each part builds on top of the previous ones, so we incrementally build a more feature rich home automation system with more moving parts. Using our `docker-compose` files in each part, you should be able to bring up a working environment with all the described components with a single command.
 

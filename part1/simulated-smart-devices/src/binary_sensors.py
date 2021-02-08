@@ -22,20 +22,12 @@ class FakeBinarySensor(FakeMQTTDevice):
     To add some excitement to this simulation, at every `transmission_interval_seconds`,
     this sensor has a `probability_of_changing_state`. This means that there is a configurable
     chance that the state will flip from "ON" to "OFF" once in a while.
-
-    Moreover, objects of this class make themselves "discoverable" by other devices by
-    publishing their configuration to the MQTT topic homeassistant/switch/fake-switches/<id>/config.
-    This allows for home-assistant to automatically find them (https://www.home-assistant.io/docs/mqtt/discovery/).
-
-    The `device_class` argument defines how this device is represented in home-assistant. Possible values are in
-    https://www.home-assistant.io/integrations/binary_sensor/#device-class
     """
 
     def __init__(
         self,
         id: str,
         name: str,
-        device_class: str,
         state_topic: str,
         probability_of_changing_state: float,
         transmission_interval_seconds: float,
@@ -44,7 +36,6 @@ class FakeBinarySensor(FakeMQTTDevice):
         super(FakeBinarySensor, self).__init__()
         self.id = id
         self.name = name
-        self.device_class = device_class
         self.state_topic = state_topic
         self.probability_of_changing_state = probability_of_changing_state
         self.transmission_interval_seconds = transmission_interval_seconds

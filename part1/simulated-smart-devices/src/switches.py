@@ -25,12 +25,11 @@ class FakeSwitch(FakeMQTTDevice):
     """
 
     def __init__(
-        self, id: str, name: str, icon: str, state_topic: str, command_topic: str
+        self, id: str, name: str, state_topic: str, command_topic: str
     ):
         super(FakeSwitch, self).__init__()
         self.id = id
         self.name = name
-        self.icon = icon
         self.state_topic = state_topic
         self.command_topic = command_topic
 

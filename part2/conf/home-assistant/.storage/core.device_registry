@@ -35,7 +35,7 @@
                         "alarm_light"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake_switch-v1",
                 "name": "Alarm light",
                 "sw_version": null,
@@ -57,7 +57,7 @@
                         "office_light"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake_switch-v1",
                 "name": "Office light",
                 "sw_version": null,
@@ -79,7 +79,7 @@
                         "bedroom_temperature"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake-sensor-v1",
                 "name": "Bedroom Temperature",
                 "sw_version": null,
@@ -101,7 +101,7 @@
                         "living_room_co2_battery_level"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake-sensor-v1",
                 "name": "Living Room CO2 battery level",
                 "sw_version": null,
@@ -123,7 +123,7 @@
                         "kitchen_humidity"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake-sensor-v1",
                 "name": "Kitchen Humidity",
                 "sw_version": null,
@@ -145,7 +145,7 @@
                         "living_room_co2"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake-sensor-v1",
                 "name": "Living Room CO2",
                 "sw_version": null,
@@ -167,7 +167,7 @@
                         "office_motion_detector"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake-sensor-v1",
                 "name": "Office motion detector",
                 "sw_version": null,
@@ -189,7 +189,7 @@
                         "garage_door"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake-sensor-v1",
                 "name": "Garage door",
                 "sw_version": null,
@@ -211,7 +211,7 @@
                         "kitchen_smoke_detector"
                     ]
                 ],
-                "manufacturer": "hacker-club.io",
+                "manufacturer": "hackerclub.io",
                 "model": "fake-sensor-v1",
                 "name": "Kitchen smoke detector",
                 "sw_version": null,

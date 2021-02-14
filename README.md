@@ -1,5 +1,5 @@
-# A gentle guide to home automation with docker-compose
-This repository holds code for a series of blog posts called "A gentle guide to home automation with docker-compose", published on [hackerclub.io](https://hackerclub.io).
+# A hacker's guide to open source home automation
+This repository holds code for a series of blog posts called "A hacker's guide to open source home automation", published on [hackerclub.io](https://hackerclub.io).
 
 The posts and code are organized in _parts_. Each part builds on top of the previous ones, so we incrementally build a more feature rich home automation system with more moving parts. Using our `docker-compose` files in each part, you should be able to bring up a working environment with all the described components with a single command.
 
@@ -13,7 +13,7 @@ We take a closer look at Docker, Docker Compose and how they can help us. We use
 We get fancier by introducing Home Assistant as a central directory of smart devices and Node-RED for automation. We will be able to say: "if the office motion detector senses somebody's presence, turn on the office light" or "turn on the AC if the bedroom temperature is over X degrees".
 
 ## Part 4
-It's all about data persistence and visualization. We will introduce the [InfluxDB](https://www.influxdata.com/) as a time-series database for storing our data over time and [Grafana](https://grafana.com/) for visually querying our data. These two new additions to our `docker-compose` file will play along nicely with the ones from step 2.
+Data persistence and visualization. We will introduce [InfluxDB](https://www.influxdata.com/) as a time-series database for storing our data long term and [Grafana](https://grafana.com/) for visually querying our data. These two new additions to our `docker-compose` file will play along nicely with the ones from step 3.
 
 ## Part 5
 Making it secure. We will remedy some of the security concessions we made in the name of simplicity. We will secure usernames and passwords, and make a case for denying all access through the public internet. We also briefly touch on VPNs and how they can help us.

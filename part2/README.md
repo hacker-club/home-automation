@@ -1,4 +1,4 @@
-# A gentle guide to home automation with docker-compose - Part 1
+# A gentle guide to home automation with docker-compose - Part 2
 This is the first part of posts about using `docker-compose` for home automation published on [hackerclub.io](https://hackerclub.io). You can read it [here](https://hackerclub.io/).
 
 In this part, we introduce some of the main components in our setup: Docker, MQTT, Home Assistant, and smart devices as sensors and switches. We build code to "simulate" sensors and switches, so we can quickly set up a playground with `docker-compose`.
